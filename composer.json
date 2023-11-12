@@ -1,0 +1,26 @@
+{
+  "name": "ajenguianis/ps-module-setting",
+  "description": "Library to load and provide easily prestashop configuration.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Anis Ajengui",
+      "homepage": "https://github.com/ajenguianis"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AA\\PSModuleSetting\\": "lib"
+    },
+    "classmap": []
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\AA\\PSModuleSetting\\": "tests/Unit/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
