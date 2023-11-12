@@ -1,7 +1,7 @@
 # ps-module-setting
 
 [![License](https://img.shields.io/github/license/ajenguianis/ps-module-setting)](https://github.com/ajenguianis/ps-module-setting/blob/develop/LICENSE)
-[![Latest Release](https://img.shields.io/github/v/release/ajenguianis/ps-module-setting)](https://github.com/ajenguianis/ps-module-setting/releases/tag/v1.0.0)
+[![Latest Release](https://img.shields.io/github/v/release/ajenguianis/ps-module-setting)](https://img.shields.io/github/v/release/ajenguianis/ps-module-setting)
 ![Total Downloads](https://img.shields.io/packagist/dt/ajenguianis/ps-module-setting)
 ![Latest Unstable Version](https://img.shields.io/packagist/vpre/ajenguianis/ps-module-setting)
 
