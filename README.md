@@ -7,7 +7,7 @@
 
 ## Overview
 
-The `ps-module-setting` library simplifies the configuration of PrestaShop settings by providing an easy-to-use interface for accessing settings from a database or a `.env` file.
+**ps-module-setting** simplifies the management and provision of PrestaShop configurations by offering a straightforward interface for handling settings from both a database and a dedicated `.env` file.
 
 ## Features
 
