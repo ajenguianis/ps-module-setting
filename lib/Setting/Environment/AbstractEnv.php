@@ -65,20 +65,21 @@ abstract class AbstractEnv implements EnvProviderInterface
      */
     private array $envVariables;
 
-    public function __construct()
+    public function __construct($path)
     {
         foreach (self::FILE_ENV_LIST as $env => $fileName) {
-            if (!file_exists($this->getEnvPath() . $fileName)) {
+            if (!file_exists($path . $fileName)) {
                 continue;
             }
+            if(!empty($path)){
+                $envLoader = new EnvLoader();
+                $envVariables=$envLoader->load($path . $fileName, false);
+                $this->setEnvVariables($envVariables);
 
-            $envLoader = new EnvLoader();
-            $envVariables=$envLoader->load($this->getEnvPath() . $fileName, false);
-            $this->setEnvVariables($envVariables);
+                $this->setName($env);
+                break;
+            }
 
-            $this->setName($env);
-
-            break;
         }
     }
 
